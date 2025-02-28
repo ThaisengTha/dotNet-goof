@@ -46,7 +46,15 @@
           "dependencies": {
             "Azure.Identity": {
               "target": "Package",
-              "version": "[1.13.2, )"
+              "version": "[1.13.1, )"
+            },
+            "Azure.Storage.Queues": {
+              "target": "Package",
+              "version": "[12.22.0-beta.1, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
             },
             "Microsoft.Identity.Web": {
               "target": "Package",
@@ -58,7 +66,7 @@
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.5, )"
             }
           },
           "imports": [
